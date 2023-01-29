@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Rock Paper Scissors Lizard Spock</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
 
-  <body>
-    <section id="welcome">
-      <div class="top-container">
-        Welcome to the game.
-        Please enter your name here:
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors Lizard Spock</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <h1 id="title">Rock Paper Scissors Lizard Spock</h1>
+    </div>
+  </header>
+
+  <section id="welcome-container">
+    <div id="welcome-div">
+      <div id="welcome-heading">
+        <h2>Welcome to the game</h2>
+        <p>Please enter your name here: <input class="text-input" id="fname" type="text" name="first_name" required></p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="rules-of-game">
-      <div class="middle-container">
-        Rules of the game:
-        Best out of 5
+  <section id="rules-container">
+    <div id="rules-div">
+      <div id="rules-heading">
+        <h2>Rules of the game:</h2>
 
-        Scissors cuts Paper.
-        Paper covers Rock.
-        Rock crushes Lizard.
-        Lizard poisons Spock.
-        Spock smashes Scissors.
-        Scissors beats Lizard.
-        Lizards eats Paper.
-        Paper disproves Spock.
-        Spock vaporizes Rock.
-        Rock crushes Scissors.
+          <div id="rules-ol-div">
+            <ul class="rules-ol">
+              <li>Best out of 5</li>
+              <li>Scissors cuts Paper</li>
+              <li>Paper covers Rock</li>
+              <li>Rock crushes Lizard</li>
+              <li>Lizard poisons Spock</li>
+              <li>Spock smashes Scissors</li>
+              <li>Scissors beats Lizard</li>
+              <li>Lizards eats Paper</li>
+              <li>Paper disproves Spock</li>
+              <li>Spock vaporizes Rock</li>
+              <li>Rock crushes Scissors</li>
+            </ul>
+          </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="begin-game">
-      <div class="bottom-container">
-        Begin button
-      </div>
-    </section>
-  
+  <section id="begin-game-container">
+    <div id="begin-game-div">
+      <a href="game-page.html" aria-label="Begin Game (redirect to game page)" class="join-button">
+        <h3>Begin Game !</h3>
+      </a>
+    </div>
+  </section>
+
   <script src="assets/js/script.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
