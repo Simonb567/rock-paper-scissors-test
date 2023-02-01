@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border: none;
   /* background-color: pink; */
 }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: black;
+  /* background-color: #DEF5E5; */
+}
+
+h1, h2, h3 {
+  font-family: "Alegreya Sans" , sans-serif;
+  color: black;
+}
+
 
 .header-container {
   height: 75px;
@@ -19,7 +34,7 @@
   width: 100%;
   height: 25px;
   margin: 5px 0 20px;
-  border: 2px solid #fafafa;
+  border: 2px solid blue;
   border-radius: 2px;
 }
 
@@ -98,11 +113,9 @@
 
 #begin-game-button {
   width: 100%;
-  /* margin: 10px auto 0; */
   border-radius: 2px;
-  /* padding: 15px 32px; */
   font-size: 110%;
-  /* background-color: #f16c6b; */
+  border: 2px solid blue;
   color: black;
   display: block;
 }
@@ -143,7 +156,7 @@
   width: 50%;
   height: 100%;
   text-align: center;
-  background: url(../images/rpsls.png) no-repeat center center;
+  background: url(../images/lizard.png) no-repeat center center;
   background-size: contain;
 }
 
@@ -226,4 +239,8 @@
 #winner-div a {
   text-decoration: none;
   color: black;
+}
+
+#begin-game-button h3 {
+  margin: auto;
 }
